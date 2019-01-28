@@ -9,7 +9,11 @@ import 'element-ui/lib/theme-chalk/index.css'
 
 import './assets/alicon/iconfont.css'
 
+/* 请求 */
+import Ajax from 'vue-resource'
+
 Vue.use(ElementUI)
+Vue.use(Ajax)
 
 Vue.config.productionTip = false
 
